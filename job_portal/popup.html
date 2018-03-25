@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Popup contact form</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" type="text/css" href="bootstrap-4.0.0-beta\dist\css\bootstrap.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="elements.css" rel="stylesheet">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script src="my_js.js"></script>
+</head>
+<!-- Body Starts Here -->
+<body id="body" style="overflow:hidden;">
+<div id="abc" style="background-image: url(images/img6.jpg);">
+<!-- Popup Div Starts Here -->
+
+<div id="popupContact">
+<!-- Contact Us Form -->
+<form action="#" id="form" method="post" name="form">
+<img id="close" src="images/3.png" onclick ="div_hide()">
+<h2>Contact Us</h2>
+<hr>
+<input id="name" name="name" placeholder="Name" type="text">
+<input id="email" name="email" placeholder="Email" type="text">
+<textarea id="msg" name="message" placeholder="Message"></textarea>
+<a href="javascript:%20check_empty()" id="submit">Send</a>
+</form>
+</div>
+<!-- Popup Div Ends Here -->
+</div>
+<!-- Display Popup Button -->
+<div style="height: 40%;margin-top: 0;background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#FBF8F9, #F5CEDB , #FCE4EC); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FBF8F9, #F5CEDB , #FCE4EC); /* Standard syntax */">
+	<h1 class="text-uppercase" style="text-align: left;font-family: arial;font-weight: bold;color: black;padding: 2rem;"><span class="glyphicon glyphicon-user" style="position: relative;left:20%;font-size: 25px;color: green">WE Provide 24/7 Support to To all our Registered Users</h1>
+	<h3 style="color: black;padding: 6rem;font-weight: bold;text-align: left;font-family: arial">We provide Technical assitance for any queries while using our portal.Additionally you can read our <a href="#">FAQ's.</a>Leave Us a message by clicking on the button below and we would contact you.</h3>
+	<span class="glyphicon glyphicon-comment" style="position: relative;left:38%;font-size: 25px;color: green"></span><button id="popup" onclick="div_show()" style="margin-left: 40%;background-color: #D11544;padding: 0">Your message</button>
+</div>
+</body>
+<!-- Body Ends Here -->
+</html>

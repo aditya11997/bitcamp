@@ -1,0 +1,19 @@
+#footer{
+	width: 100%;
+	background-color: #2E3339;
+	color: white;
+	font-family: arial;
+	text-decoration: none;
+}
+#social{
+	width: 100%;
+}
+#quicklinks{
+	float:center;
+	color: white;
+	position: absolute;
+	left:30rem;
+}
+.links{
+	text-decoration: none;
+}

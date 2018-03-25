@@ -1,0 +1,149 @@
+
+.btn{
+	background-color: #007BFF;
+	color: white;
+	text-decoration: none;
+}
+#About1{
+	color: white;
+}
+#register{
+	color:white;
+}
+.d-block{
+	height: 30rem;
+}
+.back{
+
+	background-color:#D5DBDB;
+}
+.search{
+
+	position: relative;
+	top: 10px;
+	float: center;
+}
+
+h5{
+	margin-left: 10rem;
+}
+ul{
+	list-style: none;
+	text-decoration: none;
+	color: white;
+	margin-left: 10rem;
+}
+li{
+	text-decoration: none;
+}
+.left{
+	float: left;
+	width: 100%;
+	background-color: black;
+	color: white;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+
+
+}
+#social{
+	width: 100%;
+}
+#footer{
+	width: 100%;
+	background-color: #2E3339;
+	color: white;
+	font-family: arial;
+}
+#quicklinks{
+	float:center;
+	color: white;
+	position: absolute;
+	left:30rem;
+}
+.nav-item{
+	margin-right: 2rem;
+}
+body{
+	background: #FAF6F3; /* For browsers that do not support gradients */
+	
+}
+#searchjobs{
+	position: relative;
+	top:-120rem;
+}
+#login{
+
+	text-align: right;
+	color:white;
+	position: absolute;
+	right: 0;
+	font-weight: bold;
+	font-family: arial;
+	padding-right: 2px;
+}
+.navbar .navbar-collapse > ul > li > a:hover, .navbar .navbar-collapse > ul > li > a:focus {
+    background-color: #B579D2;
+    color: white;
+    font-family: Arial;
+}
+#login_button{
+
+	background-color: #00E25B;
+	border-color: #B579D2;
+	position: absolute;
+	right: 5px;
+}
+#job-search{
+
+	position: absolute;
+	left: 0;
+	top:10rem;
+	z-index: 5;
+}
+#user-login{
+
+	position: absolute;
+	left: 0;
+	top: 20rem;
+	z-index: 5;
+}
+
+#jskr{
+	position: absolute;
+	right:0px;
+}
+#abt{
+	color: black;
+}
+#secure{
+
+	position: relative;
+	right: 1rem;
+}
+.center{
+	text-align: center;
+}
+.card{
+
+	font-family: arial;
+}
+#view-more{
+	font-family: arial;
+	font-weight: bold;
+	color:green;
+}
+#JobSeeker_Login{
+	position: absolute;
+	top:10rem;
+	left: 20px;
+	color:#FFC300;
+	font-family: arial;
+	font-weight:bold;
+}
+#jobs{
+	margin-right: 10px;
+	padding-left: 5px;
+	position: absolute;
+	left: 4px;
+}

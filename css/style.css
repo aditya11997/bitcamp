@@ -1,0 +1,222 @@
+.navbar{
+	background:#E8E6E6 !important;
+}
+
+body{
+	font-family: Roboto;
+}
+#carousel-block{
+	color: #D34F32;
+	border:1px solid transparent;
+	backface-visibility: transparent;
+	background-color: rgba(0,0,0,1);
+
+}
+#height{
+	height: 600px;
+}
+.header{
+	border-top: 5px solid #FB091B;
+	
+	z-index: 1030;
+	position: fixed;
+	width: 100%;
+}
+.carousel-caption h3:first-child {
+  animation-delay: 1s;
+}
+
+.carousel-caption h3:nth-child(2) {
+  animation-delay: 2s;
+}
+
+.carousel-caption button {
+  animation-delay: 3s;
+}
+.container1{
+	background-color: #F5F2EF;
+	opacity: 0.6;
+	margin-bottom: 15px;
+	color: #0E0102;
+}
+.my-btn1{
+	padding-bottom: 20px;
+}
+#logo{
+	border: 1px solid red;
+	padding: 3px;
+	font-weight: bold;
+	color: red;
+	font-family: 'Alegreya SC';font-size: 22px;
+}
+#logo-word{
+	font-family: 'Alegreya SC';font-size: 22px;
+	font-weight: bold;
+}
+.nav-fonts{
+	font-family: 'Roboto Condensed' !important;
+	font-size: 22px;
+	padding-left: 15px;
+	color: black;
+}
+#home{
+	font-family: 'Alegreya Sans SC';font-size: 24px;
+	font-weight: bold;
+	color:#3497DB;
+}
+.captions{
+	font-family: 'Allan';
+	opacity: 0.4;
+	color: black;
+	position: relative;
+	margin-top: 120px;
+}
+
+
+p{
+	font-size: 24px;
+}
+.sec1{
+	width: 100%;
+	color: black;
+	height: 37rem;
+	background: #EFEEEC;
+	position: relative;
+	font-family: 'Times';
+
+}
+.sec2
+{
+	width: 100%;
+	background: #FAFAF7;
+	position: relative;
+	color: black;
+	font-family: 'Roboto';font-size: 22px;
+}
+.sec2:before
+{
+	content: '';
+	width: 50%;
+	height: 100px;
+	position: absolute;
+	top: -48px;
+	left: 0;
+	background: #FAFAF7;
+	transform: skewY(8deg);
+	color: black;
+	font-family: 'Roboto';font-size: 22px;
+
+}
+.sec2:after
+{
+	content: '';
+	width: 50%;
+	height: 100px;
+	position: absolute;
+	top: -48px;
+	right: 0;
+	background: #FAFAF7;
+	transform: skewY(-8deg);
+	color: #900C3F;
+	font-family: 'Roboto';font-size: 22px;
+
+}
+.sec3
+{
+	width: 100%;
+	background: url('images/img20.jpg');
+	position: relative;
+	color: black;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.sec3:before
+{
+	content: '';
+	width: 50%;
+	height: 100px;
+	position: absolute;
+	top: -48px;
+	left: 0;
+	background: url('images/img20.jpg');
+	transform: skewY(8deg);
+	color: black;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.sec3:after{
+	content: '';
+	width: 50%;
+	height: 100px;
+	position: absolute;
+	top: -48px;
+	right: 0;
+	background: url('images/img20.jpg');
+	transform: skewY(-8deg);
+	color: black;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+blockquote{
+	padding: 100px;
+}
+#quotes{
+	font-family: 'Sofia';font-size: 22px;
+}
+#logo-font{
+	color: black;
+}
+.carousel-indicators--round li {
+    border-radius: 10px;
+    margin: 1px 3px;
+    height: 10px;
+    max-width: 10px;
+    border: 1px solid #1EC913;
+    background-color: transparent;
+}
+.carousel-indicators .active {
+    background-color: #1EC913;
+    max-width: 12px;
+    margin: 0 3px;
+    height: 12px;
+}
+.card{
+	width: 22rem;
+	height: 35rem;
+}
+.card img{
+	height: 15rem;
+	width: 20rem;
+}
+.card p{
+	font-size: 18px !important;
+}
+.sec4{
+	font-family: 'Roboto Condensed', sans-serif !important;
+}
+.fonts-general{
+	font-family: 'Roboto Condensed';
+	color: #C82333;
+	text-align: center;
+	color: #FF3700
+}
+.Associated-Companies{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-family: 'Roboto Condensed';
+}
+#myBtn{
+	display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 50%; /* Rounded corners */
+}
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}

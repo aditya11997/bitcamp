@@ -1,0 +1,23 @@
+.btn{
+	background-color: #343A40;
+	color: white;
+	text-decoration: none;
+}
+#about{
+	color: white;
+}
+.d-block{
+	height: 30rem;
+}
+.back{
+
+	background-color:#D5DBDB;
+}
+.searchbar{
+
+	position: absolute;
+	top:15rem;
+	left:10rem;
+
+
+}

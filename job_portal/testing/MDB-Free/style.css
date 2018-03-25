@@ -1,0 +1,12 @@
+.nav-item{
+	margin-right: 1rem;
+}
+.logo{
+
+	font-family: 'Tangerine', serif;
+}
+.dropdown-item:hover{
+
+	color:white;
+	background-color: black;
+}

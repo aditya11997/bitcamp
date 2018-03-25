@@ -1,0 +1,88 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hello, world!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Employer.css">
+  </head>
+  <body style="background-color: #8EDE76">
+    <div class="container">
+      <br>
+      <form class="form-control" action="Employer.php" method="POST">
+        <legend>Employer Form</legend><hr>
+      <div class="form-group">
+        <label for="exampleFormControlInput1"><strong>Job Title</strong></label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" name="job_title" placeholder="Eg.Full Stack Web Developer">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1"><strong>Department</strong></label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" name="department" placeholder="Your Department">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1"><strong>Company Name</strong></label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" name="company_Name" placeholder="Your Full Company Name">  
+      </div>
+      <div class="form-group">
+        <label for="location"><strong>Job Location</strong></label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" name="job_location" placeholder="Add Job location"> 
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="exampleFormControlSelect1"><strong>Expected Salary</strong></label>
+            <select class="form-control" id="exampleFormControlSelect1" name="salary">
+              <option>Less than 2,50,000</option>
+              <option>2.50,000-3,50,000</option>
+              <option>3,50,000-5,00,000</option>
+              <option>5,00,000-7,00,000</option>
+              <option>7,00,000-9,00,000</option>
+              <option>9,00,000-12,00,000</option>
+              <option>More than 12,00,000</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="inputJobType"><strong>JobType</strong></label>
+            <select class="form-control" id="exampleFormControlSelect1" name="job_type">
+              <option>Work From Home</option>
+              <option>Part Time</option>
+              <option>Full Time</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="education"><strong>Education</strong></label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" name="education" placeholder="Add Educational Details"> 
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1"><strong>Job Description</strong></label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" name="job_description" rows="3"></textarea>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-5"></div>
+        <div class="col-md-4"><button type="submit" class="btn btn-outline-success btn-lg" name="submit"><strong>Submit</strong></button></div>
+        <div class="col-md-3"></div>
+      </div>
+      <br>
+    </form>
+    </div>
+    <br><br>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>
+
